@@ -1,4 +1,4 @@
-"Disable Arrow Keys"
+
 noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
@@ -21,16 +21,17 @@ call vundle#rc()
 "call vundle#rc(path)
 
 " let Vundle manage Vundle, required
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
 " Plugins
-Bundle 'derekwyatt/vim-scala'
-Bundle 'flazz/vim-colorschemes'
-Bundle 'kien/ctrlp.vim'
-Bundle 'Pychimp/vim-luna'
-Bundle 'scrooloose/nerdcommenter'
-Bundle 'scrooloose/nerdtree'
-Bundle 'scrooloose/syntastic'
+Plugin 'derekwyatt/vim-scala'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'kien/ctrlp.vim'
+Plugin 'Pychimp/vim-luna'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
+Plugin 'vim-scripts/figlet.vim'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM User Interface
