@@ -51,8 +51,12 @@ colo molokai
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, Tab and Indent Related
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set smarttab
+set smartindent
+set smartcase
 set backspace=2
 set ts=4
+set expandtab
 set shiftwidth=4
 
 "Linebreak on 80 characters
@@ -69,6 +73,9 @@ set ai "Auto Indent
 set relativenumber
 set nu
 set wildmenu
+
+" GoLang Syntax Highlighting "
+au BufRead,BufNewFile *.go set filetype=go
 
 " NerdTree
 map <C-e> :NERDTreeToggle<CR>:NERDTreeMirror<CR>
