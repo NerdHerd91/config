@@ -1,3 +1,6 @@
+source ~/.liquidpromptrc
+source ~/Stuffs/liquidprompt/liquidprompt
+
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
 export FIGNORE=.class

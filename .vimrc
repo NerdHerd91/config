@@ -1,11 +1,10 @@
-
 noremap <Up> <NOP>
 noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
 
 "Trying to enable mouse scrolling in vim
-set mouse=i
+"set mouse=i
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VUNDLE
