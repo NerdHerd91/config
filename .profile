@@ -1,4 +1,4 @@
-source ~/.liquidpromptrc
+#source ~/.liquidpromptrc
 source ~/Stuffs/liquidprompt/liquidprompt
 
 export CLICOLOR=1
