@@ -10,14 +10,13 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-" alternatively, pass a path where Vundle should install bundles
-"let path = '~/some/path/here'
-"call vundle#rc(path)
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+" alternatively, pass a path where Vundle should install plugins
+"call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
 " Plugins
 Plugin 'derekwyatt/vim-scala'
@@ -30,6 +29,10 @@ Plugin 'scrooloose/syntastic'
 Plugin 'vim-scripts/figlet.vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+
+" All of your Plugins must be added before the following line
+call vundle#end()           " required
+filetype plugin indent on   " required
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM User Interface
