@@ -45,6 +45,7 @@ set showmatch
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Colors and Fonts
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set t_Co=256 "Enables Xterm-256 colors if not already set
 syntax enable
 set background=dark
 colo molokai 
