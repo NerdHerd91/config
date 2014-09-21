@@ -53,22 +53,15 @@ colo molokai
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Text, Tab and Indent Related
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-set smarttab
-set smartindent
-set smartcase
+set ai "Auto Indent
 set backspace=2
-set ts=4
 set expandtab
 set shiftwidth=4
-
-"Linebreak on 80 characters
-"set lbr
-"set tw=80
-
-set ai "Auto Indent
-"set si "Smart Indent
-"set wrap "Wrap Lines
-
+set smartcase
+set smarttab
+set smartindent
+set ts=4
+set tw=80
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Miscellaneous
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
