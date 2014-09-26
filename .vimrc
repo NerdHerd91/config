@@ -20,19 +20,25 @@ Plugin 'gmarik/Vundle.vim'
 
 " Plugins
 Plugin 'derekwyatt/vim-scala'
+Plugin 'godlygeek/tabular'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'kien/ctrlp.vim'
+Plugin 'plasticboy/vim-markdown'
 Plugin 'Pychimp/vim-luna'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'vim-scripts/figlet.vim'
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
 
 " All of your Plugins must be added before the following line
 call vundle#end()           " required
 filetype plugin indent on   " required
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => PLUGINS
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set rtp+=$GOPATH/src/github.com/golang/lint/misc/vim
+autocmd BufWritePost,FileWritePost *.go execute 'Lint' | cwindow
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM User Interface
