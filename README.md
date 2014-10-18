@@ -1,4 +1,11 @@
-config
-======
+## Dotfiles and System Configurations
+----------------------------------------
 
-Configuration files.
+##### HomeBrew
+* Go
+* Vim
+* Mercurial
+* Figlet
+* Python
+* Python3
+
