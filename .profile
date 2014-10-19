@@ -9,9 +9,6 @@ export FIGNORE=.class
 homebrew=/usr/local/bin:/usr/local/sbin
 export PATH=$homebrew:$PATH
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
 ### Added for rabbitMQ
 export CP=.:commons-io-1.2.jar:commons-cli-1.1.jar:rabbitmq-client.jar
 
