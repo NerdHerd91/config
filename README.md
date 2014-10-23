@@ -8,4 +8,6 @@
 * Figlet
 * Python
 * Python3
-
+* Liquidprompt
+* Tmux
+* Wget
