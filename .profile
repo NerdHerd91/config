@@ -17,3 +17,6 @@ export PATH=$PATH:$GOPATH/bin
 if [ -f /usr/local/share/liquidprompt ]; then
     . /usr/local/share/liquidprompt
 fi
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

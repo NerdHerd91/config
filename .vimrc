@@ -28,6 +28,8 @@ Plugin 'Pychimp/vim-luna'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
 Plugin 'vim-scripts/figlet.vim'
 
 " All of your Plugins must be added before the following line
