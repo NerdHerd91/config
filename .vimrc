@@ -21,6 +21,7 @@ Plugin 'gmarik/Vundle.vim'
 " Plugins
 Plugin 'derekwyatt/vim-scala'
 Plugin 'godlygeek/tabular'
+Plugin 'facebook/vim-flow'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'kien/ctrlp.vim'
 Plugin 'plasticboy/vim-markdown'
